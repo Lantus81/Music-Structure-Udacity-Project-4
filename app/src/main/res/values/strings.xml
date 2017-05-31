@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="song_name">Song name</string>
+    <string name="artist">Artist</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="tracks">Tracks</string>
+    <string name="albums">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="store">Store</string>
+    <string name="music_store">Music Store</string>
+    <string name="display_time">0:00</string>
+    <string name="text_tracks">Add list of all track on the phone. User can click on any item in the list to play it. I would use database to save all uri of files in it so app don\'t have to search for files every time it starts. I would use great Udacity tutorial on database to create this list.Class to use MediaStore.Audio.</string>
+    <string name="text_albums">Class to use: MediaStore.Audio.Albums Use list to display albums. When user click on artist start playing tracks in album.</string>
+    <string name="text_playlist">This is playlist screen. Here is list of all playlist created and floating button to create new playlist. When user click on playlist it starts playing tracks in it. Class to use: MediaStore.Audio.Playlists</string>
+    <string name="text_store">This is store screen. I woud try to open google play in this activity with music that user can buy. Add the In-app Billing library to project.</string>
+</resources>
